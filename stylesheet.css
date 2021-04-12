@@ -1,0 +1,65 @@
+#content {
+  color: white;
+  padding: 50px;
+  text-align: center;
+  padding: 30px;
+  border: 5px solid black;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#background{
+  background-image: url("backgroundswordstand.jpg");
+  background-repeat: repeat-y;
+  padding: 80px;
+}
+
+.darkmode{
+  background-image: url("Wallpaper.jpg");
+}
+
+body{
+  padding: 10px 50px;
+  background-color: black;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: papyrus;
+  font-size: 40px;
+}
+
+.navbar {
+}
+
+.navbar li {
+  list-style-type: none;
+  display: inline;
+  padding: 50px;
+}
+
+.navbar a {
+  color: white;
+}
+
+h2{
+  color: white;
+  font-size: 30px;
+  font-family: 'Aclonica';
+}
+
+.options {
+  background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1em;
+  margin: 2px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.options:active {
+  box-shadow: none;
+  top: 5px;
+}
