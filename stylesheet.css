@@ -1,20 +1,11 @@
 #content {
   color: white;
+  font-size: 20px;
   padding: 50px;
   text-align: center;
   padding: 30px;
   border: 5px solid black;
   background: rgba(0, 0, 0, 0.7);
-}
-
-#background{
-  background-image: url("backgroundswordstand.jpg");
-  background-repeat: repeat-y;
-  padding: 80px;
-}
-
-.darkmode{
-  background-image: url("Wallpaper.jpg");
 }
 
 body{
@@ -60,6 +51,22 @@ h2{
 }
 
 .options:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+.endbutton {
+  background-color: black;
+  box-shadow: 0 5px 0 grey;
+  color: white;
+  padding: 1em 1em;
+  margin: 2px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.endbutton:active {
   box-shadow: none;
   top: 5px;
 }
