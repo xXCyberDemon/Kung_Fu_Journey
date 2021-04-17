@@ -17,14 +17,15 @@ h1{
   color: white;
   text-align: center;
   font-family: papyrus;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .navbar {
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 .navbar li {
-  list-style-type: none;
   display: inline;
   padding: 50px;
 }
@@ -57,7 +58,7 @@ h2{
 
 .endbutton {
   background-color: black;
-  box-shadow: 0 5px 0 grey;
+  box-shadow: 2px 5px 0 grey;
   color: white;
   padding: 1em 1em;
   margin: 2px;
@@ -69,4 +70,14 @@ h2{
 .endbutton:active {
   box-shadow: none;
   top: 5px;
+}
+
+.backbutton {
+  background-color: black;
+  color: grey;
+  text-decoration: none;
+}
+
+.backbutton:hover {
+  background-color: red;
 }
